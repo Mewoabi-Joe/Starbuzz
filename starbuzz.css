@@ -6,10 +6,18 @@ body {
 }
 
 #header {
-  background-color: #675c47;
+   background-color: #675c47;
   margin:           10px;
   margin-bottom: 0px;
   height:           108px;
+}
+#headerSlogan{
+  float: right;
+}
+#award{
+  position: absolute;
+  top: 30px;
+  left: 365px;
 }
 div#table{
   display: table;
@@ -17,6 +25,13 @@ div#table{
 }
 div#row{
   display: table-row;
+}
+#drinks {    
+  display: table-cell;    
+  background-color: #efe5d0;    
+  width: 20%;   
+  padding: 15px;    
+  vertical-align: top; 
 }
 
 #main {
@@ -33,7 +48,17 @@ div#row{
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
+  width: 30%;
 }
+#coupon {    
+  position: fixed;    
+  top: 350px;    
+  left: -90px; 
+}
+#coupon a, img {   
+ border: none; 
+}
+
 
 #footer {
   background-color: #675c47;
