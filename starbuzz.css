@@ -51,8 +51,8 @@ div#row{
   width: 30%;
 }
 #coupon {    
-  position: fixed;    
-  top: 350px;    
+  position: relative;    
+  top: 40px;    
   left: -90px; 
 }
 #coupon a, img {   
