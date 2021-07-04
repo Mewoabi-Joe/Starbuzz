@@ -14,7 +14,27 @@ header.top {
 #headerSlogan{
   float: right;
 }
+ul{
+  background-color: #efe5d0;
+  margin: 10px 10px 0px 10px;
+  list-style-type: none;
+  padding: 5px 0px;
+}
+li{
+  display: inline;
+  padding: 5px 10px;
+  margin: 0px;
+}
 
+ul li a:link, ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+ul li.selected{
+  background-color: #c8b99c;
+}
 div#table{
   display: table;
   border-spacing: 10px;
@@ -30,7 +50,7 @@ section#drinks {
   vertical-align: top; 
 }
 
-section#blog {
+section#blog, section#main {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
