@@ -1,13 +1,25 @@
+#allcontent{
+	margin-left: auto;
+	margin-right: auto;
+}
 body {
 	background: #efe5d0 url(images/background.gif) top left;
 	margin: 20px;
 }
-
+h1,h2{
+	text-align: center;
+}
+h2{
+	font-size: 110%;
+}
 form {
+
 	display: table;
 	padding: 10px;
 	border: thin dotted #7e7e7e;
 	background-color: #e1ceb8;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 form textarea {
