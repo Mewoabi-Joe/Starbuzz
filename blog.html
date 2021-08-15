@@ -22,9 +22,7 @@
         	<li><a href="">LOCATIONS</a></li>
         </ul>
     </nav>
-	<div id="table">
-	<div id="row">
-
+	<div id="flex-container">
 	<section id="drinks">
 		<h1>BEVERAGES</h1>
 			<p>House Blend, $1.49</p>
@@ -53,12 +51,14 @@
 		</header>   
 		<p> As promised, today I'm proud to announce that Starbuzz Coffee is launching the Tweet Sip cup, a special Starbuzz  Coffee cup that tweets each time you take a sip! Check  out my video of our new invention.   
 		</p>
-		<video controls autoplay width="512" height="288"  poster="images/poster.png">
-			<source src="video/tweetsip.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-			<source src="video/tweetsip.webm" type='video/webm; codecs="vp8, vorbis"'>
-			<source src="video/tweetsip.ogv" type='video/ogg; codecs="theora, vorbis"'>
-			<p>Your browser does not support this video format</p>
-		</video>
+		<div id="video-container">
+			<video controls autoplay poster="images/poster.png">
+				<source src="video/tweetsip.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+				<source src="video/tweetsip.webm" type='video/webm; codecs="vp8, vorbis"'>
+				<source src="video/tweetsip.ogv" type='video/ogg; codecs="theora, vorbis"'>
+				<p>Your browser does not support this video format</p>
+			</video>
+		</div>
 	</article>
 	<article>
 	<header>
@@ -155,8 +155,6 @@
         (if you want), packaged, and shipped to your door.
       </p>
     </aside>
-
-	</div> <!-- tableRow -->
 	</div> <!-- tableContainer -->
 
     <footer>
